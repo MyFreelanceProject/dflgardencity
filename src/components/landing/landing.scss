@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.overlay {
+	h1 {
+		font-family: $font-weight-bolder;
+		z-index: 1;
+		color: #fff;
+		font-size: 10rem;
+	}
+
+	h4 {
+		font-family: $font-weight-bold;
+		z-index: 1;
+		color: #fff;
+		font-size: 4rem;
+	}
+}

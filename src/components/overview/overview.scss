@@ -1,0 +1,52 @@
+@import "../../variables";
+
+.overview-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+.prop_item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.5s;
+	margin: 0 1rem;
+	cursor: pointer;
+	border: 2px solid #57cc99;
+	padding: 0.5rem;
+
+	&:hover {
+		border-radius: 10px;
+		box-shadow: 0 0 20px 0px #57cc99;
+		border: 2px solid #57cc99;
+	}
+
+	.prop_title {
+		color: $secondary-color;
+		font-family: $font-weight-medium;
+	}
+
+	.prop_subtitle {
+		color: $secondary-color-dark;
+		font-family: $font-weight-light;
+		font-size: 1.2rem;
+	}
+}
+
+.form_card {
+	.form_head {
+		font-size: 4rem;
+		font-family: $font-weight-bold;
+	}
+	.form_subhead_1 {
+		color: $primary-color-dark;
+		font-family: $font-weight-medium;
+	}
+
+	.form_subhead_3 {
+		color: $primary-color-dark;
+		font-family: $font-weight-medium;
+	}
+}

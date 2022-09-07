@@ -1,0 +1,78 @@
+@import "../../variables";
+
+.facilities_row_one {
+	margin-top: 3rem !important;
+	.facilities_col:nth-child(even) {
+		background-color: white;
+
+		.attribute_item {
+			.attribute_logo {
+				background-color: #38a3a5;
+				color: #ffffff;
+			}
+		}
+	}
+
+	.facilities_col:nth-child(odd) {
+		background-color: #38a3a5;
+
+		.attribute_item {
+			.attribute_logo {
+				background-color: white;
+			}
+
+			.attribute_name {
+				color: #ffffff;
+				font-family: $font-weight-bold;
+			}
+		}
+	}
+}
+
+.facilities_row_two {
+	margin-top: 3rem !important;
+	.facilities_col:nth-child(odd) {
+		background-color: white;
+
+		.attribute_item {
+			.attribute_logo {
+				background-color: #38a3a5;
+				color: #ffffff;
+			}
+		}
+	}
+
+	.facilities_col:nth-child(even) {
+		background-color: #38a3a5;
+
+		.attribute_item {
+			.attribute_logo {
+				background-color: white;
+			}
+
+			.attribute_name {
+				color: #ffffff;
+				font-family: $font-weight-bold;
+			}
+		}
+	}
+}
+
+.attribute_item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 1rem;
+
+	.attribute_logo {
+		font-size: 5rem;
+		margin: 1rem;
+		border-radius: 50px;
+		padding: 1rem;
+	}
+
+	.attribute_name {
+		font-family: $font-weight-medium;
+	}
+}
