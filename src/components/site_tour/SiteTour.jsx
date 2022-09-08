@@ -1,10 +1,11 @@
 import {Box, Stack} from "@mui/system";
 import React from "react";
-import {Col, Row, Container} from "reactstrap";
+import {Row, Container} from "reactstrap";
 import ReactPlayer from "react-player";
 const SiteTour = () => {
 	return (
 		<Box
+			id="sitetour"
 			style={{
 				paddingTop: "4rem",
 				paddingBottom: "4rem",

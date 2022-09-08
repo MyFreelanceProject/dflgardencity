@@ -8,6 +8,7 @@ import CallIcon from "@mui/icons-material/Call";
 const MasterPlan = () => {
 	return (
 		<Box
+			id="masterplan"
 			style={{
 				paddingTop: "4rem",
 				paddingBottom: "4rem",

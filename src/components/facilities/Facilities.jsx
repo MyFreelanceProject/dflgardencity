@@ -14,6 +14,7 @@ import SportsHandballIcon from "@mui/icons-material/SportsHandball";
 const Facilities = () => {
 	return (
 		<Box
+			id="facilities"
 			style={{
 				paddingTop: "10rem",
 				paddingBottom: "10rem",

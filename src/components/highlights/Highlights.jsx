@@ -8,6 +8,7 @@ import home from "../../assets/images/home.jpg";
 const Highlights = () => {
 	return (
 		<Box
+			id="highlights"
 			style={{
 				paddingTop: "10rem",
 				paddingBottom: "10rem",

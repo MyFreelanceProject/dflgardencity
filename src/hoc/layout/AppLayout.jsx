@@ -10,6 +10,8 @@ import MasterPlan from "../../components/master_plan/MasterPlan";
 import Location from "../../components/Location/Location";
 import Schedule from "../../components/schedule/Schedule";
 import SiteTour from "../../components/site_tour/SiteTour";
+import About from "../../components/about/About";
+import Footer from "../../components/footer/Footer";
 const AppLayout = () => {
 	return (
 		<>
@@ -24,6 +26,8 @@ const AppLayout = () => {
 			<Location />
 			<Schedule />
 			<SiteTour />
+			<About />
+			<Footer />
 		</>
 	);
 };

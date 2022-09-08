@@ -9,7 +9,7 @@ import image4 from "../../assets/images/4.jpg";
 
 const Landing = () => {
 	return (
-		<Box sx={{maxHeight: "70vh", position: "relative"}}>
+		<Box id="landing" sx={{maxHeight: "70vh", position: "relative"}}>
 			<Box
 				className="overlay"
 				component={"div"}

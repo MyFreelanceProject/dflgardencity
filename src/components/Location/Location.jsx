@@ -9,6 +9,7 @@ import TravelExploreIcon from "@mui/icons-material/TravelExplore";
 const Location = () => {
 	return (
 		<Box
+			id="location"
 			style={{
 				paddingTop: "4rem",
 				paddingBottom: "4rem",

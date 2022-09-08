@@ -13,6 +13,7 @@ import "./schedule.scss";
 const Schedule = () => {
 	return (
 		<Box
+			id="schedule"
 			style={{
 				paddingTop: "4rem",
 				paddingBottom: "4rem",

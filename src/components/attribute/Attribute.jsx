@@ -7,6 +7,7 @@ import couple from "../../assets/images/couple.jpg";
 const Attribute = () => {
 	return (
 		<Box
+			id="attribute"
 			style={{
 				paddingTop: "10rem",
 				paddingBottom: "10rem",

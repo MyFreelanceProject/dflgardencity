@@ -25,6 +25,7 @@ const Gallery = () => {
 	return (
 		<>
 			<Box
+				id="gallery"
 				style={{
 					paddingTop: "10rem",
 					paddingBottom: "10rem",
